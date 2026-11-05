@@ -1,0 +1,27 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:MyFirstAvaloniaApp.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="800"
+             x:Class="MyFirstAvaloniaApp.Views.MainView"
+             x:DataType="vm:MainViewModel"
+             Classes="page">
+
+    <Design.DataContext>
+        <vm:MainViewModel />
+    </Design.DataContext>
+
+    <StackPanel Margin="16" Spacing="16">
+        <TextBlock Classes="title" Text="Meine App" />
+
+        <Border Classes="card">
+            <StackPanel Spacing="8">
+                <TextBlock Text="Karte" />
+                <TextBlock Classes="muted" Text="Beschreibung" />
+                <Button Content="Weiter" Classes="Primary" />
+            </StackPanel>
+        </Border>
+    </StackPanel>
+
+</UserControl>

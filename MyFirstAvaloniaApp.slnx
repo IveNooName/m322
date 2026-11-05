@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MyFirstAvaloniaApp.Desktop/MyFirstAvaloniaApp.Desktop.csproj" />
+  <Project Path="MyFirstAvaloniaApp.iOS/MyFirstAvaloniaApp.iOS.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="MyFirstAvaloniaApp/MyFirstAvaloniaApp.csproj" />
+</Solution>
